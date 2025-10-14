@@ -18,3 +18,7 @@ Thumbs.db
 # 로그, 캐시
 *.log
 *.cache
+
+#암호 등
+.env
+data/

@@ -16,4 +16,13 @@ if __name__ == '__main__':
 
 print("check for commit and push on git")
 
+
+import pandas as pd
+from visualizer.chart_maker import plot_price_chart
+
+df = pd.read_csv("data/BTCUSDT_1h.csv", parse_dates=["timestamp"])
+df.set_index("timestamp", inplace=True)
+
+plot_price_chart(df, "BTCUSDT", "1h")
+
 # https://www.jetbrains.com/help/pycharm/에서 PyCharm 도움말 참조
