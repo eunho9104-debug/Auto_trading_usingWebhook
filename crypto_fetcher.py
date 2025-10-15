@@ -17,10 +17,10 @@ load_dotenv()
 BASE_URL = "https://api.binance.com/api/v3/klines"
 SYMBOLS = [
     "ETHUSDT", "ETCUSDT", "LTCUSDT", "XRPUSDT", "DOGEUSDT",
-    "MOVEUSDT", "1000SHIBUSDT", "SOLUSDT", "MYXXUSDT",
-    "PUMPUSDT", "BNBUSDT", "AVNTUSDT", "1000PEPEUSDT" ]
+    "MOVEUSDT", "SOLUSDT",
+    "PUMPUSDT", "BNBUSDT", "AVNTUSDT" ]
  # 원하는 코인 리스트
-INTERVALS = ["1h", "30m"]  # 시간봉 리스트
+INTERVALS = ["1h", "30m", "15m", "5m", "3m"]  # 시간봉 리스트
 
 def fetch_ohlcv(symbol, interval, limit=500):
     params = {
