@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 271.5
   },
   "right": {
     "id": "8dbb8f7b9d9d45cc",
@@ -171,11 +171,14 @@
   },
   "active": "0332494445a95f70",
   "lastOpenFiles": [
+    "자동매매 프로젝트 진행상황 & 스케줄.md",
+    "python",
+    "__pycache__/trader.cpython-314.pyc",
+    "__pycache__",
     "config.json",
     "exchange_api.py",
     "alert.py",
     "v7.2 5분봉 1시간봉 수익율 비교.md",
-    "자동매매 프로젝트 진행상황 & 스케줄.md",
     "자동매매 프로젝트 진행상황 & 스케줄 - 복사본.md"
   ]
 }
