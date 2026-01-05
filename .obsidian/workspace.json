@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "자동매매 프로젝트 진행상황 & 스케줄"
             }
+          },
+          {
+            "id": "9b69a3e922f2ecbb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "자동매매 프로젝트 진행상황 & 스케줄.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "자동매매 프로젝트 진행상황 & 스케줄"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -169,8 +184,10 @@
       "bases:새 베이스 생성하기": false
     }
   },
-  "active": "0332494445a95f70",
+  "active": "e6d1ae286dc59128",
   "lastOpenFiles": [
+    "trader.py",
+    "trader_old.py",
     "자동매매 프로젝트 진행상황 & 스케줄.md",
     "python",
     "__pycache__/trader.cpython-314.pyc",
